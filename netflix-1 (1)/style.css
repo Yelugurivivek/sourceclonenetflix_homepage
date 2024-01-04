@@ -1,0 +1,232 @@
+
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+.gfg {
+    margin: 3%;
+    position: relative;
+}
+
+.text-container {
+    position: absolute;
+    color: rgb(255, 255, 255);
+    left: 18rem;
+    top: 2rem;
+    background-color:none;
+    padding: 0 1rem;
+}
+
+.navigation{
+    display: flex;
+    padding: 0px;
+    border: 0px;
+    background-size:cover ;
+}
+
+header {
+    background: #111;
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+/* nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+} */
+
+.navigation .logo img {
+    display: flex;
+    max-width: 150px;
+
+}
+
+.navigation .menu ul {
+    display: flex;
+    margin-left: 1020px;
+
+}
+
+.menu li {
+    display: flex;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 20px;
+}
+
+.hero {
+    background-color: #111;
+    background-size: cover;
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+
+}
+
+.cta-button {
+    background: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.featured {
+
+    margin: 0 auto;
+    padding: 20px 0;
+    background: #111;
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: auto;
+}
+
+.featured h2 {
+    align-items: center ;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.featured {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: auto;    
+}
+
+.featured p{
+    display: flex;
+}
+.child {
+    display: flex;
+    margin: 0 auto;
+    padding: 140px 0;
+    background: #111;
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    max-height: 200px;
+    align-items: center;
+
+}
+
+.child p{
+    padding: 50px;
+
+}
+
+.child h1{
+    padding: 50px;
+}
+.faq{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 18px;
+    background: #111;
+    color: #fff;
+    margin-bottom: 10px;
+}
+.faq h2{
+    font-weight: 500;
+    font-size: 40px;
+}
+.accordion{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+.accordion li{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+.accordion li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    margin-bottom: 2px;
+    cursor: pointer;
+    position: relative;
+}
+label::after{
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+}
+input[type="radio"]{
+    display: none;
+}
+.accordion .content{
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+.accordion input[type="radio"]:checked + label + .content{
+    max-height: 600px;
+    padding: 30px 20px;
+}
+.accordion input[type="radio"]:checked + label::after{
+    transform: rotate(135deg);
+}
+
+footer {
+    background: #111;
+    color: #fff;
+    padding: 140px 0;
+
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-logo img {
+    max-width: 100px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.footer-disclaimer {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+}
